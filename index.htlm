@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My iPhone Gallery</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 10px; }
+        img, video { max-width: 100%; height: auto; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>My Photos & Videos</h1>
+    <div class="gallery">
+        <!-- Add your media links here -->
+        <img src="YOUR_PHOTO_LINK" alt="Photo">
+        <video controls>
+            <source src="YOUR_VIDEO_LINK" type="video/mp4">
+            Video not supported.
+        </video>
+    </div>
+</body>
+</html>
